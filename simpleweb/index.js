@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('Hi, Dom? Express is trash. Write this shit in node.')
+  res.send('Why are you not using node?')
 })
 
 app.listen(8081, () => {
